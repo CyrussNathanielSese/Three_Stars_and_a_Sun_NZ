@@ -1,12 +1,13 @@
 body {
     text-align: center;
 }
-
 .mainpagetext1 {
+    background-color: rgb(234, 255, 44);
+    opacity: 0.8;
     text-align: center;
     font-family: 'Times New Roman';
     font-size: 30px;
-    color: yellow;
+    color: red;
 }
 .mainpagetext2{
     text-align: center;
