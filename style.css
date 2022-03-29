@@ -1,12 +1,32 @@
-body {
-    text-align: center;
+.background1 {
     background-repeat: no-repeat;
     background-size: 1350px;
 }
+
+body {
+  text-align: center;
+}
+
+
+/*
+
+FOR NAV BAR DROP DOWN THINGS
+
+
+*/
+
+
+
+.Slogan {
+  font-size: 20px;
+}
+
 .mainpagetext1 {
+  border-style: solid;
+    background: rgba(232, 255, 22, 0.4);
     text-align: center;
     font-family: 'Times New Roman';
-    font-size: 30px;
+    font-size: 25px;
     color: red;
 }
 .mainpagetext2{
@@ -21,6 +41,10 @@ body {
 }
 
 ul {
+
+  background: rgb(255,0,0);
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,255,0,1) 100%);
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -29,17 +53,23 @@ ul {
   }
   
   li {
-    float: right;
+    float: left;
   }
   
   li a {
     display: block;
-    color: white;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
   
   li a:hover {
-    background-color: rgb(202, 255, 8);
+    background-color: rgb(251, 255, 31);
+  }
+
+  footer {
+    color: red;
+    background-color: rgb(255, 231, 95);
   }
