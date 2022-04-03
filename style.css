@@ -1,16 +1,48 @@
 
 .title {
+  background: rgb(232, 255, 21, 0.8);
   color: black;
 }
 
+.slogan {
+  border-color: black;
+  background: rgb(232, 255, 21, 0.8)
+}
+
 body {
-  
-  background-image: url(images/22996.jpg);
-  background-repeat: no-repeat;
-  background-size: 1345px;
-  
   text-align: center;
   background-color: white;
+}
+
+#section1{
+  background-image: url(images/22996.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section2{
+  background-image: url(images/section2_background.jpg);
+  background-size: cover;
+}
+
+#section3{
+  background-image: url(im);
+  background-color: yellowgreen;
+}
+
+#section4{
+  background-color: green;
+}
+
+.TITLErestaurant {
+  font-family: 'Papyrus';
+}
+
+.TITLEstores {
+  font-family: 'Papyrus';
+}
+
+.TITLEevents {
+  font-family: 'Papyrus';
 }
 
 
@@ -64,19 +96,13 @@ nav ul li .dropdown{
   display: none;
   position: absolute;
   background-color: rgb(232, 255, 21, 1.0); 
-  bottom: -100px;
+  bottom: -110px;
   padding: 15px 8px;
 }
 
 nav .navbarlist .NAVhome:hover .dropdown {
   display: block;
 }
-
-/*
-nav ul li ul li {
-  width: 180px;
-}
-*/
 
 nav ul li ul li a {
   padding: 12px 7px;
@@ -100,7 +126,12 @@ nav li a:hover::after{
   width: 93%;
 }
 
+nav .navbarlist .dropdown a:hover::after {
+  display: none;
+}
+
 .mainpagetext1 {
+
    border-style: solid;
    border-color: black;
     background: rgb(255, 255, 255, 0.9);
@@ -119,54 +150,3 @@ nav li a:hover::after{
     font-family: 'Times New Roman';
     font-size: 20px;
 }
-
-/*
-ul {
-   background: linear-gradient(90deg, rgba(255, 0, 0, 1, 0.5) 0%, rgba(254, 255, 0, 1, 0.5) 100%);
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: rgb(170, 2, 2);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    font-family: 'Franklin Gothic Medium';
-    color: rgb(0, 0, 0);
-    text-align: left;
-    padding: 12px 15px 12px 15px;
-    text-decoration: none;
-    position: relative;
-  }
-  
-  li a:hover {
-    background-color: rgb(251, 255, 31);
-    cursor: pointer;
-  }
-
-  footer {
-    color: red;
-    background-color: rgb(255, 231, 95);
-  }
-
-.rscities {
-  position: absolute;
-  display: none;
-}
-.strscities {
-  position: absolute;
-  display: none;
-}
-.evntscities {
-  position: absolute;
-  display: none;
-}
-.navbar :hover .rscities {
-  display: block;
-}
-*/
