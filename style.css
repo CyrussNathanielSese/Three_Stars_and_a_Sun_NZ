@@ -1,21 +1,41 @@
 
+html {
+  scroll-behavior: smooth;
+  background: rgb(232, 255, 21, 0.5);
+}
+
 .title {
   background: rgb(232, 255, 21, 0.8);
   color: black;
 }
 
 .slogan {
-  border-color: black;
-  background: rgb(232, 255, 21, 0.8)
+  background: rgb(232, 255, 21, 0.8);
+}
+
+.sss {
+  background: rgb(232, 255, 21, 0.8);
 }
 
 .threestars {
-  background: rgb(232, 255, 21, 0.8)
+  background: rgb(232, 255, 21, 0.8);
 }
 
 body {
   text-align: center;
   background-color: white;
+}
+
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  color:white;
+}
+
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(232, 255, 21, 0.8);
+  color: rgb(0, 0, 0)
 }
 
 #section1{
@@ -70,6 +90,34 @@ body {
   width: 100%;
   height: 50px;
   background-color: rgb(232, 255, 21, 1.0); 
+}
+
+.restoAKL {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(232, 255, 21, 0.8);
+  color: rgb(0, 0, 0)
+}
+
+.strsAKL {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(232, 255, 21, 0.8);
+  color: rgb(0, 0, 0)
+}
+
+.evntsAKL {
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(232, 255, 21, 0.8);
+  color: rgb(0, 0, 0)
+}
+
+.evntText {
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(232, 255, 21, 0.8);
+  color: rgb(0, 0, 0)
 }
 
 nav .navbartitle {
